@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "turgid-plugins",
+  "owner": {
+    "name": "Joe"
+  },
+  "metadata": {
+    "description": "Claude Code plugins.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "stack-review",
+      "source": "./plugins/stack-review",
+      "description": "Reviews a gh-stack one layer at a time with an agent per layer, shows each layer's findings in isolation, then rates them all against the whole change.",
+      "category": "development"
+    }
+  ]
+}

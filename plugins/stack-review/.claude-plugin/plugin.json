@@ -1,0 +1,9 @@
+{
+  "name": "stack-review",
+  "version": "1.1.0",
+  "description": "Reviews a gh-stack one layer at a time with an agent per layer, shows each layer's findings in isolation, then rates them all against the whole change.",
+  "author": {
+    "name": "Joe"
+  },
+  "keywords": ["code-review", "stacked-prs", "gh-stack", "github"]
+}
