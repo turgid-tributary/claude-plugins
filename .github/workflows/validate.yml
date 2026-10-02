@@ -30,6 +30,14 @@ jobs:
             claude plugin validate --strict "$dir"
           done
 
+      - name: Run plugin tests
+        run: |
+          for dir in plugins/*/; do
+            if [ -n "$(find "$dir" -name '*.test.ts' -o -name '*.test.tsx' | head -1)" ]; then
+              claude plugin test "$dir"
+            fi
+          done
+
       - name: Require a version bump and changelog entry for changed plugins
         env:
           BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
