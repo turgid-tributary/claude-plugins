@@ -1,0 +1,9 @@
+{
+  "name": "review-queue",
+  "version": "1.0.0",
+  "description": "Shows how many open GitHub pull requests are waiting on your review in the status line.",
+  "author": {
+    "name": "Joe"
+  },
+  "keywords": ["status-line", "code-review", "github", "mod"]
+}
