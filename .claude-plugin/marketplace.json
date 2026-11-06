@@ -20,6 +20,12 @@
       "source": "./plugins/review-queue",
       "description": "Shows how many open GitHub pull requests are waiting on your review in the status line.",
       "category": "productivity"
+    },
+    {
+      "name": "repo-avatar",
+      "source": "./plugins/repo-avatar",
+      "description": "Draws an avatar above the prompt, seeded by the project root, so each repo keeps its own face: an orc by default, or any DiceBear style.",
+      "category": "productivity"
     }
   ]
 }

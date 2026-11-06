@@ -17,6 +17,7 @@ To stay on one release instead of following `main`, add the marketplace at its t
 | Plugin | What it does |
 |---|---|
 | [stack-review](plugins/stack-review) | Reviews a `gh stack` one layer at a time with an agent per layer, shows each layer's findings in isolation, then rates them all against the whole change. |
+| [repo-avatar](plugins/repo-avatar) | Draws an avatar above the prompt, seeded by the project root, so each repo keeps its own face: an orc by default, or any DiceBear style, picked in `/config`. |
 
 ## Releasing
 

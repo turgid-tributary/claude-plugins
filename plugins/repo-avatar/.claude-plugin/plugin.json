@@ -1,0 +1,57 @@
+{
+  "name": "repo-avatar",
+  "version": "1.0.0",
+  "description": "Draws an avatar above the prompt, seeded by the session's project root, so each repo keeps its own face: an orc by default, or any DiceBear style.",
+  "author": {
+    "name": "Joe"
+  },
+  "keywords": [
+    "avatar",
+    "dicebear",
+    "mod"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "style": {
+      "type": "string",
+      "title": "Avatar style",
+      "description": "Which style draws the avatar: orc (the default), blob, or one of the DiceBear styles. The seed is the project root, so every style stays the same per repo.",
+      "default": "orc",
+      "options": [
+        "blob",
+        "orc",
+        "adventurer",
+        "adventurer-neutral",
+        "avataaars",
+        "avataaars-neutral",
+        "big-ears",
+        "big-ears-neutral",
+        "big-smile",
+        "bottts",
+        "bottts-neutral",
+        "croodles",
+        "croodles-neutral",
+        "dylan",
+        "fun-emoji",
+        "glass",
+        "icons",
+        "identicon",
+        "initials",
+        "lorelei",
+        "lorelei-neutral",
+        "micah",
+        "miniavs",
+        "notionists",
+        "notionists-neutral",
+        "open-peeps",
+        "personas",
+        "pixel-art",
+        "pixel-art-neutral",
+        "rings",
+        "shapes",
+        "thumbs",
+        "toon-head"
+      ]
+    }
+  }
+}

@@ -38,6 +38,9 @@ jobs:
             fi
           done
 
+      - name: Check repo-avatar's custom styles are synced into its index and picker
+        run: plugins/repo-avatar/scripts/sync-styles.sh --check
+
       - name: Require a version bump and changelog entry for changed plugins
         env:
           BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
