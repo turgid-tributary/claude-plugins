@@ -1,0 +1,9 @@
+{
+  "name": "deslop",
+  "version": "1.0.0",
+  "description": "Skills that clean the slop out of a change before review. /cut-comments removes the comments an agent added that say nothing the code does not.",
+  "author": {
+    "name": "Joe"
+  },
+  "keywords": ["comments", "cleanup", "code-review", "pull-requests"]
+}

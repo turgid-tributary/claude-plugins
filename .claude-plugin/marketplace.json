@@ -26,6 +26,12 @@
       "source": "./plugins/repo-avatar",
       "description": "Draws an avatar above the prompt, seeded by the project root, so each repo keeps its own face: an orc by default, or any DiceBear style.",
       "category": "productivity"
+    },
+    {
+      "name": "deslop",
+      "source": "./plugins/deslop",
+      "description": "Skills that clean the slop out of a change before review. /cut-comments removes the comments an agent added that say nothing the code does not.",
+      "category": "development"
     }
   ]
 }

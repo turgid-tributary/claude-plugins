@@ -8,8 +8,10 @@ A Claude Code plugin marketplace (`turgid-plugins`, defined in `.claude-plugin/m
 Each plugin lives under `plugins/<name>/` with its own `.claude-plugin/plugin.json`, `README.md`
 and `CHANGELOG.md`. There is no build step: the one generated code, repo-avatar's vendored
 DiceBear, is committed. Plugins come in two kinds:
-- Prompt plugins (`stack-review`): Markdown commands and agents plus Bash scripts that depend on
-  `git`, `gh` and `jq`.
+- Prompt plugins (`stack-review`, `deslop`): Markdown commands, agents and skills. `stack-review`
+  adds Bash scripts that depend on `git`, `gh` and `jq`. `deslop` is skills only, one per
+  directory under `plugins/deslop/skills/`; a new slop-removal skill goes there, with a row in the
+  plugin's README.
 - Mods (`review-queue`): a TypeScript function-hooks module listed in `hooks/hooks.json`, run by
   Claude Code itself in a sandbox with no Node or DOM; it reaches the host only through `$`
   (`$.process.run`, `$.ui.status`, `$.clock`, ...). Load the `plugin-authoring` skill before

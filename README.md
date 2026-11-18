@@ -18,6 +18,7 @@ To stay on one release instead of following `main`, add the marketplace at its t
 |---|---|
 | [stack-review](plugins/stack-review) | Reviews a `gh stack` one layer at a time with an agent per layer, shows each layer's findings in isolation, then rates them all against the whole change. |
 | [repo-avatar](plugins/repo-avatar) | Draws an avatar above the prompt, seeded by the project root, so each repo keeps its own face: an orc by default, or any DiceBear style, picked in `/config`. |
+| [deslop](plugins/deslop) | Skills that clean the slop out of a change before review. `/cut-comments` removes the comments an agent added that say nothing the code does not. |
 
 ## Releasing
 
